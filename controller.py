@@ -9,7 +9,7 @@ HERE = Path(__file__).resolve().parent
 
 class Sprout(Controller):
     v_fast = 2.0        # m/s commanded on smooth ground
-    v_edge = 1.7        # m/s near sharp edges (set lower to slow for hurdles and stairs)
+    v_edge = 1.9        # m/s near sharp edges (set lower to slow for hurdles and stairs)
     v_bar = 1.7         # m/s approaching a barrier
     v_hurdle = 1.5      # m/s near hurdles (thin ridges in the scan)
     hurdle_thr = 0.05   # m: a ridge must stand this far above both neighbours
